@@ -35,6 +35,7 @@ class SetAutoEmpty(ExecuteCommand):
             params["frequency"] = frequency.value
         super().__init__(params)
 
+
 class SetAutoEmpty2(ExecuteCommand):
     """Set auto empty command without enable."""
 
